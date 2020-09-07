@@ -7,6 +7,9 @@ module.exports = {
     content: ['./src/**/*.ts', './src/**/*.tsx'],
   },
   theme: {
+    fontFamily: {
+      'nunito': ['nunito', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {},
