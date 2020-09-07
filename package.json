@@ -21,9 +21,9 @@
     "build:tailwind": "tailwindcss build src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
     "prestart": "npm run build:tailwind",
     "prebuild": "NODE_ENV=production npm run build:tailwind",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
     "test:staged": "cross-env CI=true react-app-rewired test --env=jsdom --findRelatedTests",
     "eject": "react-scripts eject"
   },
@@ -69,6 +69,8 @@
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "cross-env": "^7.0.2",
+    "customize-cra": "^1.0.0",
+    "customize-cra-react-refresh": "^1.1.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
@@ -76,6 +78,7 @@
     "eslint-plugin-react-hooks": "^4.1.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.3.0",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "react-app-rewired": "^2.1.6"
   }
 }

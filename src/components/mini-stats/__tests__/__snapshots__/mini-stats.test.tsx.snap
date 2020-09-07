@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the area with capitalize on first letter 1`] = `
+<div>
+  <div
+    class="mb-4 bg-gray-700 relative"
+  >
+    <div
+      class="absolute top-0 left-0 transform rotate-90 origin-bottom-left -translate-y-4 -translate-x-1"
+    >
+      <p
+        class="text-white tracking-wide text-sm opacity-75 font-light"
+      >
+        <span
+          class="font-normal"
+        >
+          Region : 
+        </span>
+        Kanto
+      </p>
+    </div>
+    <div
+      class="ml-16 mt-12"
+    >
+      <p
+        class="text-white tracking-wide text-sm opacity-75 font-light"
+      >
+        <span
+          class="font-normal"
+        >
+          Height : 
+        </span>
+        100m
+      </p>
+      <p
+        class="text-white tracking-wide text-sm opacity-75 font-light"
+      >
+        <span
+          class="font-normal"
+        >
+          Weight : 
+        </span>
+        100kg
+      </p>
+    </div>
+  </div>
+</div>
+`;

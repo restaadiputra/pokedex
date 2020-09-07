@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the field and its value 1`] = `
+<div>
+  <p
+    class="text-white tracking-wide text-sm opacity-75 font-light"
+  >
+    <span
+      class="font-normal"
+    >
+      Height : 
+    </span>
+    100m
+  </p>
+</div>
+`;
